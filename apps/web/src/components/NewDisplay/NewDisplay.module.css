@@ -1,0 +1,25 @@
+.display {
+    /* calculated height: view height minus 128 (68*2) px */
+    /* border: 1px solid rgb(224, 157, 0); */
+    /* height: calc(100% - 136px);
+    padding: 16px; */
+}
+
+.newDisplay {
+    background: linear-gradient(-45deg, #55caea, #23d5ab, #55caea, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
