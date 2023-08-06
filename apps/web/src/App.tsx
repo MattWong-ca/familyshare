@@ -10,13 +10,18 @@ import { MetaMaskContextProvider } from './hooks/useMetaMask'
 export const App = () => {
 
   return (
-    <MetaMaskContextProvider>
-      <div className={styles.appContainer}>
-        <Navigation />
-        <NewDisplay />
-        {/* <Display />
-        <MetaMaskError /> */}
-      </div>
-    </MetaMaskContextProvider>
+    <div className={styles.appContainer}>
+      <NewDisplay />
+    </div>
+    
+    
   )
 }
+// <MetaMaskContextProvider>
+      /*<div className={styles.appContainer}>*/
+        {/* <Navigation /> */}
+        
+        {/* <Display />
+        <MetaMaskError /> */}
+      /*</div>*/
+    // </MetaMaskContextProvider>
