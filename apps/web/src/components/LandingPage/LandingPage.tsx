@@ -13,7 +13,9 @@ export const LandingPage = () => {
         <Link to="/signup" className={styles.link}>
           <button className="button">Sign up</button>
         </Link>
-        <button className="button">Go to dashboard</button>
+        <Link to="/home" className={styles.link}>
+          <button className="button">Go to dashboard</button>
+        </Link>
       </div>
 
     </div>
