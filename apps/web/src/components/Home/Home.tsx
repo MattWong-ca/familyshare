@@ -1,16 +1,14 @@
 import styles from './Home.module.css'
-import { Link } from 'react-router-dom';
 import { Sidebar } from '../Sidebar/Sidebar';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export const Home = () => {
     const [activeTab, setActiveTab] = useState('Dashboard');
 
     return (
-
-        <div className="dashboard-container">
+        <div className={styles.dashboard}>
             <Sidebar setActiveTab={setActiveTab} activeTab={activeTab} />
-            <div className="main-content">
+            <div className={styles.maincontent}>
                 {/* Render content based on the activeTab */}
                 {activeTab === 'Dashboard' && <h2>Dashboard Content</h2>}
                 {activeTab === 'Accounts' && <h2>Accounts Content</h2>}

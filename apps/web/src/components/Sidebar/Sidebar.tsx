@@ -1,14 +1,13 @@
-import styles from './Home.module.css'
-import { Link } from 'react-router-dom';
+import styles from './Sidebar.module.css'
 
 export const Sidebar = ({ setActiveTab, activeTab }) => {
     const tabs = ['Dashboard', 'Accounts', 'Transactions', 'Settings'];
     return (
-        <div className="sidebar">
+        <div className={styles.sidebar}>
             {tabs.map(tab => (
                 <div
                     key={tab}
-                    className={`sidebar-item ${activeTab === tab ? 'active' : ''}`}
+                    className={`${styles.sidebarItem} ${activeTab === tab ? styles.active : ''}`}
                     onClick={() => setActiveTab(tab)}
                 >
                     {tab}

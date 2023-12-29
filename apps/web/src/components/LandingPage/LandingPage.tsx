@@ -5,7 +5,6 @@ export const LandingPage = () => {
 
   return (
     <div className={styles.newDisplay}>
-
       <div className={styles.landingPageCopy}>
         <p className={styles.title}>FamilyShare</p>
         <p className={styles.tagline}>Share your next generation wallet with loved ones</p>

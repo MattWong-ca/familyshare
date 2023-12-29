@@ -1,13 +1,9 @@
 import './App.global.css'
 import styles from './App.module.css'
 
-import { Navigation } from './components/Navigation'
-import { Display } from './components/Display'
 import { LandingPage } from './components/LandingPage'
 import { SignUp } from './components/SignUp'
 import { Home } from './components/Home'
-import { MetaMaskError } from './components/MetaMaskError'
-import { MetaMaskContextProvider } from './hooks/useMetaMask'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 export const App = () => {
@@ -22,14 +18,5 @@ export const App = () => {
         </Routes>
       </div>
     </Router>
-    
   )
 }
-// <MetaMaskContextProvider>
-      /*<div className={styles.appContainer}>*/
-        {/* <Navigation /> */}
-        
-        {/* <Display />
-        <MetaMaskError /> */}
-      /*</div>*/
-    // </MetaMaskContextProvider>

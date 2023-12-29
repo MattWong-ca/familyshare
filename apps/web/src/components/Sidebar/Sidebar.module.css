@@ -5,9 +5,9 @@
     padding: 16px;
 }
 
-/* .sidebar {
+.sidebar {
     width: 200px;
-    background-color: #f0f0f0;
+    background-color: red;
     padding: 20px;
   }
   
@@ -20,9 +20,9 @@
   }
   
   .sidebar-item:hover {
-    background-color: #ddd;
+    background-color: blue;
   }
   
   .sidebar-item.active {
-    background-color: #b0c4de;
-  } */
+    background-color: lightblue;
+  }
