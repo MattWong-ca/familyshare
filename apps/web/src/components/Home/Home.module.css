@@ -4,3 +4,12 @@
     height: calc(100% - 136px);
     padding: 16px;
 }
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .dashboard-container {
+    display: flex;
+  }
