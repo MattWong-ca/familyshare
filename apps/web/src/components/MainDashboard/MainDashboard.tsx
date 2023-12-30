@@ -6,8 +6,8 @@ export const MainDashboard = () => {
     return (
         <div style={{ display: 'inline-flex', position: 'relative', width: '100%', height: '100vh' }}>
             <div style={{ backgroundColor: 'blue', width: '80%', overflow: 'auto' }}>
+                {/* Account Info at Top */}
                 <div style={{ padding: '50px 0 0 50px', backgroundColor: 'red' }}>
-                    {/* Account Info at Top */}
                     <div style={{ display: 'inline-flex' }}>
                         <img src={imgUrl} style={{ backgroundColor: 'lightblue', width: '100px', borderRadius: '20px', display: 'block' }} />
                         <div>
@@ -16,7 +16,7 @@ export const MainDashboard = () => {
                         </div>
                     </div>
                 </div>
-                {/*  */}
+                {/* Balance / New Message / 3 Buttons */}
                 <div style={{ padding: '25px 50px 0 50px', backgroundColor: 'orange' }}>
                     <div style={{ display: 'inline-flex', height: '200px', justifyContent: 'space-between' }}>
                         <div style={{ backgroundColor: 'lightblue', borderRadius: '20px', width: '270px', marginRight: '20px' }}>Your Balance</div>
@@ -26,6 +26,18 @@ export const MainDashboard = () => {
                             <button className={styles.button79} role="button" style={{ marginBottom: '15px', width: '100%', borderRadius: '20px' }}>Receive</button>
                             <button className={styles.button79} role="button" style={{ width: '100%', borderRadius: '20px' }}>Buy</button>
                         </div>
+                    </div>
+                </div>
+                {/* Total Family Assets */}
+                <div style={{ padding: '25px 50px 0 50px', backgroundColor: 'pink' }}>
+                    <div style={{ display: 'inline-flex', height: '200px' }}>
+                        <div style={{ backgroundColor: 'lightblue', borderRadius: '20px', width: '650px', marginRight: '20px' }}>Total Family Assets</div>
+                    </div>
+                </div>
+                {/* Crypto Prices */}
+                <div style={{ padding: '25px 50px 0 50px', backgroundColor: 'purple' }}>
+                    <div style={{ display: 'inline-flex', height: '200px' }}>
+                        <div style={{ backgroundColor: 'lightblue', borderRadius: '20px', width: '650px', marginRight: '20px' }}>Cryptocurrency Prices</div>
                     </div>
                 </div>
             </div>
