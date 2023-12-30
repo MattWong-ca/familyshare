@@ -8,7 +8,7 @@ export const Home = () => {
     return (
         <div className={styles.dashboard}>
             <Sidebar setActiveTab={setActiveTab} activeTab={activeTab} />
-            <div className={styles.maincontent}>
+            <div className={styles.mainContent}>
                 {/* Render content based on the activeTab */}
                 {activeTab === 'Dashboard' && <h2>Dashboard Content</h2>}
                 {activeTab === 'Accounts' && <h2>Accounts Content</h2>}
