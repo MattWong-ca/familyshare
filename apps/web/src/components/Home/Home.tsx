@@ -13,6 +13,7 @@ export const Home = () => {
                 {/* Render content based on the activeTab */}
                 {activeTab === 'Dashboard' && <MainDashboard></MainDashboard>}
                 {activeTab === 'Accounts' && <h2>Accounts Content</h2>}
+                {activeTab === 'Messaging' && <h2>Messages</h2>}
                 {activeTab === 'Transactions' && <h2>Transactions Content</h2>}
                 {activeTab === 'Settings' && <h2>Settings Content</h2>}
             </div>

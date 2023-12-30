@@ -1,7 +1,7 @@
 import styles from './Sidebar.module.css'
 
 export const Sidebar = ({ setActiveTab, activeTab }) => {
-    const tabs = ['Dashboard', 'Accounts', 'Transactions', 'Settings'];
+    const tabs = ['Dashboard', 'Accounts', 'Messaging', 'Transactions', 'Settings'];
     return (
         <div className={styles.sidebar}>
             {tabs.map(tab => (

@@ -21,7 +21,11 @@ export const MainDashboard = () => {
                     <div style={{ display: 'inline-flex', height: '200px', justifyContent: 'space-between' }}>
                         <div style={{ backgroundColor: 'lightblue', borderRadius: '20px', width: '270px', marginRight: '20px' }}>Your Balance</div>
                         <div style={{ backgroundColor: 'lightblue', borderRadius: '20px', width: '200px', margin: '0 20px' }}>New Message!</div>
-                        <div style={{ backgroundColor: 'lightblue', borderRadius: '20px', width: '200px', margin: '0 20px' }}>3 buttons</div>
+                        <div style={{ backgroundColor: 'lightblue', borderRadius: '20px', width: '200px', margin: '0 20px', flexDirection: 'column' }}>
+                            <button className={styles.button79} role="button" style={{ marginBottom: '15px', width: '100%', borderRadius: '20px' }}>Send</button>
+                            <button className={styles.button79} role="button" style={{ marginBottom: '15px', width: '100%', borderRadius: '20px' }}>Receive</button>
+                            <button className={styles.button79} role="button" style={{ width: '100%', borderRadius: '20px' }}>Buy</button>
+                        </div>
                     </div>
                 </div>
             </div>
