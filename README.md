@@ -2,6 +2,8 @@
 
 A customizable multi-sig crypto wallet (proof-of-concept) for families!
 
+Inspired by: https://www.wallio.io/
+
 Currently a work in progress... to do: 
 - sign up flow
 - the actual multi-sig wallet
