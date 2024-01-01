@@ -1,5 +1,4 @@
 import styles from './MainDashboard.module.css'
-import { Link } from 'react-router-dom';
 
 export const MainDashboard = () => {
     const imgUrl = "https://cdn3d.iconscout.com/3d/premium/thumb/man-avatar-6299539-5187871.png?f=webp"
